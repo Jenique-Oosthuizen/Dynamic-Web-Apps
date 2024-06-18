@@ -1,0 +1,18 @@
+.countlabel {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+  
+  .alert-closable {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
