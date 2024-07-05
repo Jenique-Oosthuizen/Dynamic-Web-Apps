@@ -1,0 +1,21 @@
+/* Counter Display */
+.countlabel {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  /* All Buttons */
+  .buttons {
+    text-align: center;
+  }
+  
+  /* Alart for reset button */
+  .alert-closable {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
