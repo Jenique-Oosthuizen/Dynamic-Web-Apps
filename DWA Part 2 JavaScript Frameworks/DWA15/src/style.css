@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #282D35;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.nav--text, .nav--title {
+    margin: 0;
+}
+
+.nav--text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav--title {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+.nav--icon {
+    height: 30px;
+    margin-right: 7px;
+}
+
+.page {
+    padding: 20px;
+    color: #DEEBF8;
+}
+
+.page li{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.page h1{
+    font-size: 39.06px;
+}
